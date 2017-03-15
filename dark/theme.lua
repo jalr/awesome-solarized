@@ -12,6 +12,7 @@ theme.default_themes_path = "/usr/share/awesome/themes"
 theme.wallpaper_cmd = { "awsetbg "..theme.default_themes_path.."/zenburn/zenburn-background.png" }
 theme.colors = {}
 theme.colors.base3   = "#002b36ff"
+theme.colors.base4   = "#001b26ff"
 theme.colors.base2   = "#073642ff"
 theme.colors.base1   = "#586e75ff"
 theme.colors.base0   = "#657b83ff"
@@ -48,6 +49,8 @@ theme.border_width  = "2"
 theme.border_normal = theme.bg_normal
 theme.border_focus  = theme.bg_focus
 theme.border_marked = theme.bg_urgent
+theme.border_floating_normal = theme.colors.blue
+theme.border_floating_focus = theme.colors.cyan
 -- }}}
 
 -- {{{ Titlebars

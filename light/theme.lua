@@ -42,6 +42,10 @@ theme.bg_normal  = theme.colors.base3
 theme.bg_focus   = theme.colors.base1
 theme.bg_urgent  = theme.colors.red
 theme.bg_systray = theme.bg_normal
+theme.bg_minimize = theme.colors.base01
+--theme.bg_minimize   = "#0067ce"
+theme.fg_minimize   = "#2e3436"
+
 -- }}}
 
 -- {{{ Borders
